@@ -7,72 +7,83 @@ using namespace std;
 
 #define FOREVER 1
 
-enum string_code {
-    eQuit = 0,
-    eButtonPressed = 1,
-    eTimerButtonPressed = 2,
-    eUpDownButtonPressed = 3,
-    eErrorFound = 99,
-};
+namespace Mod1 {
+    using namespace std;
+    class P1_cooktop {
+        protected:
+        
+        // Needed variables for class object
+        enum string_code {
+            eQuit = 0,
+            eButtonPressed = 1,
+            eTimerButtonPressed = 2,
+            eUpDownButtonPressed = 3,
+            eErrorFound = 99,
+        };
 
-string_code hashit (string const& inString) {
-    if (inString == "quit") return eQuit;
-    else if (inString == "button") return eButtonPressed;
-    else if (inString == "timer") return eTimerButtonPressed;
-    else if (inString == "updown") return eUpDownButtonPressed;
-    else return eErrorFound;
+
+        // vector<string> inputV;
+        string input;
+
+        string_code hashit (string const& inString) {
+            if (inString == "quit") return eQuit;
+            else if (inString == "button") return eButtonPressed;
+            else if (inString == "timer") return eTimerButtonPressed;
+            else if (inString == "updown") return eUpDownButtonPressed;
+            else return eErrorFound;
+        }
+
+        public:
+        P1_cooktop() {
+            
+        }
+
+        // ~p1_cooktop() override {
+
+        // }
+
+        
+
+
+        
+
+        int getInput(void) {
+            getline(cin, input);
+            switch (hashit(input)) {
+                case eQuit:
+                    cout << "found quit" << endl;
+                    return -1;
+                    break;
+                case eButtonPressed:
+                    cout << "found button" << endl;
+                    break;
+                case eTimerButtonPressed:
+                    cout << "found timer" << endl;
+                    break;
+                case eUpDownButtonPressed:
+                    cout << "found updown" << endl;
+                    break;
+                case eErrorFound:
+                    cout << "found error" << endl;
+                    break;
+            }
+            return 0;
+        }
+
+    };
+
 }
+
+
 
 int main()
 {
-    vector<string> inputV;
-    string input;
-    
-    // char input;
+    // Md1::P1_cooktop p1;
+    Mod1::P1_cooktop p1;
 
     while (FOREVER)
     {
-        // 1 - https://stackoverflow.com/questions/8377660/how-to-cin-values-into-a-vector
-        // while ((cin >> input) && input != "") {
-        //     inputV.push_back(input);
-        // }
-        // 1 - https://stackoverflow.com/questions/40234801/c-iterate-through-a-vector-of-strings
-        // for (vector<string>::iterator s = inputV.begin(); s != inputV.end(); ++s) {
-        //     cout << *s << endl;
-        // }
-        // inputV.clear();
-
-        // 2 - https://stackoverflow.com/questions/150726/c-having-cin-read-a-return-character
-        // getline( cin, input);
-        // if (input == "quit") {
-        //     return 0;
-        // } 
-        // else {
-        //     cout << input << endl;
-        // }
-
-        // 3 - https://stackoverflow.com/questions/650162/why-the-switch-statement-cannot-be-applied-on-strings
-    
-    getline(cin, input);
-    switch (hashit(input)) {
-        case eQuit:
-            cout << "found quit" << endl;
-            return 0;
-            break;
-        case eButtonPressed:
-            cout << "found button" << endl;
-            break;
-        case eTimerButtonPressed:
-            cout << "found timer" << endl;
-            break;
-        case eUpDownButtonPressed:
-            cout << "found updown" << endl;
-            break;
-        case eErrorFound:
-            cout << "found error" << endl;
-            break;
-    }
-
+        if (p1.getInput() != 0) return 0;
 
 ///////// NNNNNNEED UNIT FRAMEWORK
     }
