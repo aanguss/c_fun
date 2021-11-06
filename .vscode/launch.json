@@ -1,0 +1,16 @@
+// https://www.programmersought.com/article/42826675760/
+
+{
+  "version": "0.2.0",
+  "configurations": [
+      {
+          "type": "lldb",
+          "request": "launch",
+          "name": "Debug",
+          "program": "${fileDirname}/${fileBasenameNoExtension}",
+          "args": [],
+          "cwd": "${workspaceFolder}",
+          "preLaunchTask": "Build with Clang"
+      }
+  ]
+}
