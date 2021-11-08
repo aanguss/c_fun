@@ -1,0 +1,3 @@
+/Users/aangus/repos/c_fun/sqrt/build/CMakeFiles/rebuild_cache.dir
+/Users/aangus/repos/c_fun/sqrt/build/CMakeFiles/edit_cache.dir
+/Users/aangus/repos/c_fun/sqrt/build/CMakeFiles/executeTests.dir

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/aangus/repos/c_fun/sqrt/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu++11 -o CMakeFiles/executeTests.dir/sqrt_test.cpp.o -c /Users/aangus/repos/c_fun/sqrt/sqrt_test.cpp",
+  "file": "/Users/aangus/repos/c_fun/sqrt/sqrt_test.cpp"
+}
+]

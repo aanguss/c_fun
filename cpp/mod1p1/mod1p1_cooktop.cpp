@@ -6,11 +6,13 @@
 using namespace std;
 
 #define FOREVER 1
-
+// https://softwareengineering.stackexchange.com/questions/260183/in-tdd-should-i-have-to-write-test-first-or-interface-first?newreg=94ab41824629433e96eb1d9e8104a0ed
+// https://www.geeksforgeeks.org/c-classes-and-objects/
 namespace Mod1 {
     using namespace std;
     class P1_cooktop {
-        protected:
+        // protected
+        public:
         
         // Needed variables for class object
         enum string_code {
@@ -33,7 +35,7 @@ namespace Mod1 {
             else return eErrorFound;
         }
 
-        public:
+        // public:
         P1_cooktop() {
             
         }
@@ -41,11 +43,6 @@ namespace Mod1 {
         // ~p1_cooktop() override {
 
         // }
-
-        
-
-
-        
 
         int getInput(void) {
             getline(cin, input);
@@ -76,7 +73,7 @@ namespace Mod1 {
 
 
 
-int main()
+int consoleMain(int argc, char **argv)
 {
     // Md1::P1_cooktop p1;
     Mod1::P1_cooktop p1;
