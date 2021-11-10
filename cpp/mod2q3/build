@@ -1,0 +1,8 @@
+mkdir _build_files
+cd _build_files
+rm -Rf *
+cmake ..
+make
+cd _build_files
+./executeTests
+cd ..
