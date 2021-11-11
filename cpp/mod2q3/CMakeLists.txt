@@ -5,7 +5,6 @@ project(mod2)
 # Locate GTest - https://www.srcmake.com/home/google-cpp-test-framework
 find_package(GTest REQUIRED)
 # include_directories(${GTEST_INCLUDE_DIRS})
-# add_subdirectory(lib)
 include_directories(${gtest_SOURCE_DIR}/lib ${gtest_SOURCE_DIR})
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 

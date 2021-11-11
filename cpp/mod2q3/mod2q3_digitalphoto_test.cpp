@@ -1,5 +1,6 @@
 #include "mod2q3_digitalphoto.cpp"
 #include <gtest/gtest.h>
+#include <gmock/gmock.h> // https://chromium.googlesource.com/external/github.com/google/googletest/+/refs/tags/release-1.8.0/googlemock/docs/ForDummies.md
 
 
 // string fake_input(std::istream& input)
