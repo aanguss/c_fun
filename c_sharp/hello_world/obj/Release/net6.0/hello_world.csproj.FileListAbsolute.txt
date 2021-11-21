@@ -1,0 +1,15 @@
+/Users/aangus/repos/c_fun/c_sharp/hello_world/obj/Release/net6.0/hello_world.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aangus/repos/c_fun/c_sharp/hello_world/obj/Release/net6.0/hello_world.AssemblyInfoInputs.cache
+/Users/aangus/repos/c_fun/c_sharp/hello_world/obj/Release/net6.0/hello_world.AssemblyInfo.cs
+/Users/aangus/repos/c_fun/c_sharp/hello_world/obj/Release/net6.0/hello_world.csproj.CoreCompileInputs.cache
+/Users/aangus/repos/c_fun/c_sharp/hello_world/bin/Release/net6.0/hello_world
+/Users/aangus/repos/c_fun/c_sharp/hello_world/bin/Release/net6.0/hello_world.deps.json
+/Users/aangus/repos/c_fun/c_sharp/hello_world/bin/Release/net6.0/hello_world.runtimeconfig.json
+/Users/aangus/repos/c_fun/c_sharp/hello_world/bin/Release/net6.0/hello_world.dll
+/Users/aangus/repos/c_fun/c_sharp/hello_world/bin/Release/net6.0/ref/hello_world.dll
+/Users/aangus/repos/c_fun/c_sharp/hello_world/bin/Release/net6.0/hello_world.pdb
+/Users/aangus/repos/c_fun/c_sharp/hello_world/obj/Release/net6.0/hello_world.csproj.AssemblyReference.cache
+/Users/aangus/repos/c_fun/c_sharp/hello_world/obj/Release/net6.0/hello_world.dll
+/Users/aangus/repos/c_fun/c_sharp/hello_world/obj/Release/net6.0/ref/hello_world.dll
+/Users/aangus/repos/c_fun/c_sharp/hello_world/obj/Release/net6.0/hello_world.pdb
+/Users/aangus/repos/c_fun/c_sharp/hello_world/obj/Release/net6.0/hello_world.genruntimeconfig.cache

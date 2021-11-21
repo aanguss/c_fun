@@ -1,0 +1,5 @@
+/Users/aangus/repos/c_fun/c_sharp/hello_world/obj/Debug/net5.0/hello_world.csproj.AssemblyReference.cache
+/Users/aangus/repos/c_fun/c_sharp/hello_world/obj/Debug/net5.0/hello_world.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aangus/repos/c_fun/c_sharp/hello_world/obj/Debug/net5.0/hello_world.AssemblyInfoInputs.cache
+/Users/aangus/repos/c_fun/c_sharp/hello_world/obj/Debug/net5.0/hello_world.AssemblyInfo.cs
+/Users/aangus/repos/c_fun/c_sharp/hello_world/obj/Debug/net5.0/hello_world.csproj.CoreCompileInputs.cache
